@@ -1,0 +1,24 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    color: #999;
+    /*color: #666;*/
+    background: #fdfcfb;
+    font-weight: normal;
+}
+.navbar{
+    height: 86px;
+    box-shadow: 5px 0 5px #ccc, -5px 0 5px #ccc;
+}
+ul.menu a.nav-link.active,
+ul.menu a.nav-link:hover{
+    border-bottom: 2px solid #d42819;
+}
+ul.social-button a.nav-link{
+    height: 26px;
+    width: 26px;
+    line-height: 26px;
+}
+ul.social-button a.nav-link:hover{
+    --bs-bg-opacity: 0.5;
+}
